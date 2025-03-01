@@ -74,7 +74,10 @@
 @media (min-width: 1312px) {
     .p-user_rates-index .l-content>.mylist {
               background: #00000082;
-}  
+}
+.l-footer::before {
+  content: "theme by Onzi";
+} 
 /* Блюр истории */
 .p-profiles .profile-head .c-history.x3>div:nth-child(2) {
   filter: blur(4px);
