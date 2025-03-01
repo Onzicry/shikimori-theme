@@ -1,0 +1,110 @@
+/* Основной файл */
+@import url("https://shiki-theme.web.app/stable/main.css");
+/* Стили обложки профиля */
+@import url("https://shiki-theme.web.app/stable/profile-cover.css");
+/* Шрифт Roboto */
+@import url("https://shiki-theme.web.app/stable/font-roboto.css");
+/* Тема «Material Dark» */
+@import url("https://shiki-theme.web.app/palette/material_dark.css");
+/* шапка */
+:root {
+  --color-menu-background: #00000000;
+  --color-menu-background-active: #000000e8;
+}
+.l-top_menu-v2 .submenu {     
+   background: rgba(0, 0, 0, .6);
+   backdrop-filter: blur(100px); 
+ }
+.l-top_menu-v2 .global-search .search-results {
+    top: var(--menu-height);
+    background: #00000000;
+    backdrop-filter: blur(100px); 
+}
+/* Настройки переменных темы */
+@media{:root {
+  /* Обложка профиля */
+  --user-cover: url("");
+  /* Фон сайта */
+  --user-background: url("https://i.imgur.com/yPoh5LZ.gif");
+}
+/* Моя обложка в профиле */
+.p-profiles .profile-head[data-user-id="1221358"]::before {
+  display: block; /* Отображение обложки */
+  background-position: center 50%;
+}
+/* прозрачная страница */
+.l-page {
+  backdrop-filter: blur(100px);
+  background: rgba(0, 0, 0, .6);
+  border-radius: 10px; 
+}
+/* Прочее настройки */
+.b-hot_topics-v2 .b-link {
+        background-color: #0000003d;
+}
+.b-forum .faye-loader, .b-comments .messages-postloader, .b-comments .faye-loader, .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander, .collapsed+.spoiler .hide-expanded, .collapsed {
+    background-color: #0000002e;
+}
+.b-quote {
+    background: #1c1c1c70;
+    border-color: #33333370;
+}
+.p-messages header.head, .p-dialogs header.head {
+    background: #00000030;
+}
+.b-user16 a, a.b-user16 {
+    background: #00000033;
+}
+.b-editable_grid tbody tr:nth-child(odd) td, .b-pages, .subheadline-input {
+    background: #00000063;
+}
+.p-dashboards-show .v2 .fc-user-sections .tag-link {
+  background-color: #00000040 !important;
+}
+.tooltip-inner {
+  background: #00000085;
+  backdrop-filter: blur(100px);
+}
+.p-user_rates-index .list-lines tr.edit-form form {
+  background: #0000004d;  
+}
+.b-collection_search .field input {
+  background: #0000004d;
+}
+@media (min-width: 1312px) {
+    .p-user_rates-index .l-content>.mylist {
+              background: #00000082;
+}  
+/* Блюр истории */
+.p-profiles .profile-head .c-history.x3>div:nth-child(2) {
+  filter: blur(4px);
+  transition: 0.4s;
+}
+.p-profiles .profile-head .c-history.x3:hover>div:nth-child(2) {
+  filter: blur(0px);
+}
+/* чат */
+.icon[data-v-10fc0338]:not(.is-disabled) {
+    color: #ffffffa3;
+}
+.ProseMirror {
+  background-color: rgba(0, 0, 0, 0.60);
+  color: #ffffffcf;
+}
+.ProseMirror-focused {
+  border-color: #bb86fc;
+}
+.menubar[data-v-082d85bb] {
+  background: rgba(0, 0, 0, 0.60);
+}
+.unsaved-content[data-v-082d85bb] {
+  background: #000000;
+}
+/* Код */
+.cm-s-solarized.cm-s-light {
+    background-color: #00000000;
+    color: #00bbff;
+}
+.cm-s-solarized.cm-s-light .CodeMirror-gutters {
+  background-color: #00000082;  
+}
