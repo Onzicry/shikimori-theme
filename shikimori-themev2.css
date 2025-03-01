@@ -78,6 +78,9 @@
 .l-footer::before {
   content: "theme by Onzi";
 } 
+.p-user_rates-index .list-lines tr td .new-value input {
+  background: #0000004d;
+} 
 /* Блюр истории */
 .p-profiles .profile-head .c-history.x3>div:nth-child(2) {
   filter: blur(4px);
