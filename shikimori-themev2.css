@@ -85,6 +85,9 @@
 .b-tag[href] {
   background-color: #00000052;
 } 
+.b-height_shortener .expand span {
+  background: #0000007d;
+}
 /* Блюр истории */
 .p-profiles .profile-head .c-history.x3>div:nth-child(2) {
   filter: blur(4px);
