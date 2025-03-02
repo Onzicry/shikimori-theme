@@ -10,6 +10,7 @@
 :root {
   --color-menu-background: #00000000;
   --color-menu-background-active: #000000e8;
+  --color-background: #2b1318;
 }
 .l-top_menu-v2 .submenu {     
    background: rgba(0, 0, 0, .6);
