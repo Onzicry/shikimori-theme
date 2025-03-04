@@ -38,6 +38,7 @@
   backdrop-filter: blur(100px);
   background: rgba(0, 0, 0, .6);
   border-radius: 10px; 
+  box-shadow: inset 0px 0px 20px 0px rgb(147 58 74);        
 }
 /* Прочее настройки */
 .b-hot_topics-v2 .b-link {
