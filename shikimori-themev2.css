@@ -88,6 +88,9 @@
 .b-height_shortener .expand span {
   background: #0000007d;
 }
+    .p-animes-show .other-names, .p-animes-show .more-info, .p-mangas-show .other-names, .p-mangas-show .more-info, .p-ranobe-show .other-names, .p-ranobe-show .more-info {
+    background-color: #00000054;
+  }
 /* Блюр истории */
 .p-profiles .profile-head .c-history.x3>div:nth-child(2) {
   filter: blur(4px);
