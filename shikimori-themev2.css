@@ -118,14 +118,14 @@
     color: #ffffffa3;
 }
 .ProseMirror {
-  background-color: rgba(0, 0, 0, 0.60);
+  background-color: var(--color-surface);
   color: #ffffffcf;
 }
 .ProseMirror-focused {
   border-color: #bb86fc;
 }
 .menubar[data-v-082d85bb] {
-  background: rgba(0, 0, 0, 0.60);
+  background-color: var(--color-surface);
 }
 .unsaved-content[data-v-082d85bb] {
   background: #000000;
