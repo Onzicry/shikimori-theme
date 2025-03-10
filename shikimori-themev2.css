@@ -12,9 +12,15 @@
   --color-menu-background-active: #00000096;
   --color-background: #2b1318;
 }
+.l-top_menu-v2 {
+  background-color: #28131ae0;
+}
+#profiles_show .l-top_menu-v2 {
+    background-color: #28131ae0;
+}
 .l-top_menu-v2 .submenu {     
    background: rgba(0, 0, 0, .6);
-   backdrop-filter: blur(100px); 
+   backdrop-filter: blur(100px);
  }
 .l-top_menu-v2 .global-search .search-results {
     top: var(--menu-height);
@@ -79,17 +85,14 @@
 }
 .l-footer::before {
   content: "theme by Onzi";
-} 
+}
 .p-user_rates-index .list-lines tr td .new-value input {
   background: #0000004d;
-} 
-.b-tag[href] {
-  background-color: #00000052;
-} 
+}  
 .b-height_shortener .expand span {
   background: #0000007d;
-}
-    .p-animes-show .other-names, .p-animes-show .more-info, .p-mangas-show .other-names, .p-mangas-show .more-info, .p-ranobe-show .other-names, .p-ranobe-show .more-info {
+}  
+  .p-animes-show .other-names, .p-animes-show .more-info, .p-mangas-show .other-names, .p-mangas-show .more-info, .p-ranobe-show .other-names, .p-ranobe-show .more-info {
     background-color: #00000054;
   }
 /* Блюр истории */
@@ -100,6 +103,9 @@
 .p-profiles .profile-head .c-history.x3:hover>div:nth-child(2) {
   filter: blur(0px);
 }
+.b-tag[href] {
+  background-color: #00000052;
+}  
 /* чат */
 .icon[data-v-10fc0338]:not(.is-disabled) {
     color: #ffffffa3;
