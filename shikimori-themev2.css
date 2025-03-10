@@ -53,6 +53,9 @@
       box-shadow: 0 6px 8px -2px rgba(0, 0, 0, 0);
 }}
 /* Прочее настройки */
+.tipsy-inner {
+  background-color: #0000004a;
+}
 .b-hot_topics-v2 .b-link {
   background-color: #0000003d;   
 }
