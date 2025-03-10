@@ -11,6 +11,7 @@
   --color-menu-background: #00000000;
   --color-menu-background-active: #00000096;
   --color-background: #2b1318;
+  --color-surface: #1c1c1c70;
 }
 .l-top_menu-v2 {
   background-color: #28131ae0;
@@ -58,10 +59,12 @@
 .b-forum .faye-loader, .b-comments .messages-postloader, .b-comments .faye-loader, .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander, .collapsed+.spoiler .hide-expanded, .collapsed {
     background-color: #0000002e;
 }
-.b-quote {
-    background: #1c1c1c70;
-    border-color: #33333370;
+.b-quote, ..b-quote-v2 {
+  background: #1c1c1c70;
+  border-color: #33333370;
+  background-color: var(--color-surface);
 }
+
 .p-messages header.head, .p-dialogs header.head {
     background: #00000030;
 }
