@@ -48,7 +48,7 @@
 }
 /* Прочее настройки */
 .b-hot_topics-v2 .b-link {
-        background-color: #0000003d;
+  background-color: #0000003d;   
 }
 .b-forum .faye-loader, .b-comments .messages-postloader, .b-comments .faye-loader, .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander, .collapsed+.spoiler .hide-expanded, .collapsed {
     background-color: #0000002e;
@@ -79,9 +79,8 @@
 .b-collection_search .field input {
   background: #0000004d;
 }
-@media (min-width: 1312px) {
-    .p-user_rates-index .l-content>.mylist {
-              background: #00000082;
+.p-user_rates-index .l-content>.mylist {
+  background: #00000082;
 }
 .l-footer::before {
   content: "theme by Onzi";
@@ -92,7 +91,7 @@
 .b-height_shortener .expand span {
   background: #0000007d;
 }  
-  .p-animes-show .other-names, .p-animes-show .more-info, .p-mangas-show .other-names, .p-mangas-show .more-info, .p-ranobe-show .other-names, .p-ranobe-show .more-info {
+.p-animes-show .other-names, .p-animes-show .more-info, .p-mangas-show .other-names, .p-mangas-show .more-info, .p-ranobe-show .other-names, .p-ranobe-show .more-info {
     background-color: #00000054;
   }
 /* Блюр истории */
