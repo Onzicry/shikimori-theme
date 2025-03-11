@@ -49,6 +49,9 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  .b-footer_vote .vote-group .vote {
+    background-color: #00000038;
+}
   .b-user_rate-history {
       background: #00000045;   
   }
