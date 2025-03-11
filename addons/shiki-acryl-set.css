@@ -49,10 +49,6 @@
     height: 160px;
   } 
   /* Прочее настройки */
-  header.head.misc.is-own-profile {
-    background: "";
-    backdrop-filter: "";
-}
   .b-user_rate-history {
       background: #00000045;   
   }
