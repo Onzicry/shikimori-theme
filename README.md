@@ -9,5 +9,5 @@
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/profile-cover.css");
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/font-roboto.css");
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/material_dark.css");
-@import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/acryl-theme.css");
+@import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/acryl.css");
 ```
