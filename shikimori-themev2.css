@@ -53,6 +53,10 @@
       box-shadow: 0 6px 8px -2px rgba(0, 0, 0, 0);
 }}
 /* Прочее настройки */
+header.head.misc.is-own-profile {
+    background: #241218e6;
+    backdrop-filter: blur(20px);
+}
 .b-user_rate-history {
     background: #00000045;   
 }
