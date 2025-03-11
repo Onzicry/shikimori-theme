@@ -83,6 +83,7 @@
     border-color: #33333370;
     background-color: var(--color-surface);
   }
+  
   .p-messages header.head, .p-dialogs header.head {
       background: #00000030;
   }
