@@ -47,11 +47,15 @@
   border-radius: 10px; 
   box-shadow: inset 0px 0px 20px 0px rgb(147 58 74);        
 }
-@media (min-width: 320px) and (max-width: 480px) {
-    .p-profiles .profile-head .c-brief {
-      background-color: #00000000;  
-      box-shadow: 0 6px 8px -2px rgba(0, 0, 0, 0);
+.p-profiles .profile-head .c-brief {
+  background-color: #00000000;
+  box-shadow: 0 6px 8px -2px rgba(0, 0, 0, 0);         
 }}
+/* Анимированная аватарка */  
+.avatar img[title="Onzi"] {
+  content: url("https://i.imgur.com/MVmZnbK.gif");
+  height: 160px;
+} 
 /* Прочее настройки */
 header.head.misc.is-own-profile {
     background: #241218e6;
