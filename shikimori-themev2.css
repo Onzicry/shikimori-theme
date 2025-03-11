@@ -86,7 +86,7 @@ header.head.misc.is-own-profile {
 .b-forum .faye-loader, .b-comments .messages-postloader, .b-comments .faye-loader, .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander, .collapsed+.spoiler .hide-expanded, .collapsed {
     background-color: #0000002e;
 }
-.b-quote, ..b-quote-v2 {
+.b-quote, .b-quote-v2 {
   background: #1c1c1c70;
   border-color: #33333370;
   background-color: var(--color-surface);
