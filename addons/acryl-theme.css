@@ -42,7 +42,7 @@
   .p-profiles .profile-head .c-brief {
     background-color: #00000000;
     box-shadow: 0 6px 8px -2px rgba(0, 0, 0, 0);         
-  }}
+  }
   /* Анимированная аватарка */  
   .avatar img[title="Onzi"] {
     content: url("https://i.imgur.com/MVmZnbK.gif");
@@ -78,6 +78,9 @@
   .b-forum .faye-loader, .b-comments .messages-postloader, .b-comments .faye-loader, .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander, .collapsed+.spoiler .hide-expanded, .collapsed {
       background-color: #0000002e;
   }
+  .b-forum .faye-loader:hover, .b-comments .messages-postloader:hover, .b-comments .faye-loader:hover, .b-comments .comments-loader:hover, .b-comments .comments-hider:hover, .b-comments .comments-expander:hover, .collapsed+.spoiler .hide-expanded:hover, .collapsed:hover {
+    background-color: #0000004d;
+}
   .b-quote, .b-quote-v2 {
     background: #1c1c1c70;
     border-color: #33333370;
@@ -158,4 +161,4 @@
   }
   .cm-s-solarized.cm-s-light .CodeMirror-gutters {
     background-color: #00000082;  
-  }
+  }}
