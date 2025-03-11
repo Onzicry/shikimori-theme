@@ -12,7 +12,7 @@
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/acryl.css");
 ```
 > [!NOTE]
-> Не работает стиль? Сбрось кэш стилей шикимори![Shikimori](https://shikimori.one/tests/reset_styles_cache).
+> Не работает стиль? Сбрось кэш стилей шикимори! [shikimori](https://shikimori.one/tests/reset_styles_cache).
 
 ```
 https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/acryl.css
