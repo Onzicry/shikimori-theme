@@ -49,6 +49,9 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  .b-code-v2 {
+    background: #0000003d;
+}
   .b-footer_vote .vote-group .vote {
     background-color: #00000038;
 }
