@@ -1,0 +1,170 @@
+/* шапка */
+:root {
+    --color-menu-background: #00000000;
+    --color-menu-background-active: #00000096;
+    --color-background: #2b1318;
+    --color-surface: #1c1c1c70;
+  }
+  .l-top_menu-v2 {
+    background-color: #28131ae0;
+  }
+  #profiles_show .l-top_menu-v2 {
+      background-color: #28131ae0;
+  }
+  .l-top_menu-v2 .submenu {     
+     background: rgba(0, 0, 0, .6);
+     backdrop-filter: blur(100px);
+   }
+  .l-top_menu-v2 .global-search .search-results {
+      top: var(--menu-height);
+      background: #00000000;
+      backdrop-filter: blur(100px); 
+  }
+  /* Настройки переменных темы */
+  @media{:root {
+    /* Обложка профиля */
+    --user-cover: url("");
+    /* Фон сайта */
+    --user-background: url("https://i.imgur.com/yPoh5LZ.gif");
+  }
+  /* Моя обложка в профиле */
+  .p-profiles .profile-head[data-user-id="1221358"]::before {
+    display: block; /* Отображение обложки */
+    background-position: center 50%;
+  }
+  /* прозрачная страница */
+  .l-page {
+    backdrop-filter: blur(100px);
+    background: rgba(0, 0, 0, .6);
+    border-radius: 10px; 
+    box-shadow: inset 0px 0px 20px 0px rgb(147 58 74);        
+  }
+  .p-profiles .profile-head .c-brief {
+    background-color: #00000000;
+    box-shadow: 0 6px 8px -2px rgba(0, 0, 0, 0);         
+  }
+  /* Анимированная аватарка */  
+  .avatar img[title="Onzi"] {
+    content: url("https://i.imgur.com/MVmZnbK.gif");
+    height: 160px;
+  } 
+  /* Прочее настройки */
+  .b-code-v2 {
+    background: #0000003d;
+}
+  .b-footer_vote .vote-group .vote {
+    background-color: #00000038;
+}
+  .b-user_rate-history {
+      background: #00000045;   
+  }
+  .b-news_wall-topic>a[href] {
+      background: #00000045;
+  }
+  .p-profiles-edit .account .change-password a, .b-contests-menu .results, .b-shiki_editor .links .b-button.ok, .b-shiki_editor .images .b-button.ok, .b-shiki_editor .quotes .b-button.ok, .b-shiki_editor .upload .b-button.ok, .b-poll .poll-actions .vote, .b-link_button.dark, .b-form input[type=submit], .p-user_rates .mylist-block+.block+.block+.block>.b-list>li>a, .b-collection-filters>.block:nth-child(3)>.b-list>li>a {
+      background: #00000047;
+      color: #ffffff91;
+  }
+  .p-profiles-edit .account .change-password a:hover, .b-contests-menu .results:hover, .b-shiki_editor .links .b-button.ok:hover, .b-shiki_editor .images .b-button.ok:hover, .b-shiki_editor .quotes .b-button.ok:hover, .b-shiki_editor .upload .b-button.ok:hover, .b-poll .poll-actions .vote:hover, .b-link_button.dark:hover, .b-form input[type=submit]:hover, .p-user_rates .mylist-block+.block+.block+.block>.b-list>li>a:hover, .b-collection-filters>.block:nth-child(3)>.b-list>li>a:hover, .p-profiles-edit .account .change-password a:focus, .b-contests-menu .results:focus, .b-shiki_editor .links .b-button.ok:focus, .b-shiki_editor .images .b-button.ok:focus, .b-shiki_editor .quotes .b-button.ok:focus, .b-shiki_editor .upload .b-button.ok:focus, .b-poll .poll-actions .vote:focus, .b-link_button.dark:focus, .b-form input[type=submit]:focus, .p-user_rates .mylist-block+.block+.block+.block>.b-list>li>a:focus, .b-collection-filters>.block:nth-child(3)>.b-list>li>a:focus {
+      background: #00000047;
+      color: #ffffff;
+  }
+  .b-news_line-topic>a[href] {
+      background: #00000045;
+  }
+  .p-dashboards-show .v2 .db-updates .inner>.db-update {
+      background: #00000045;
+  }
+  .tipsy-inner {
+    background-color: #0000004a;
+  }
+  .b-hot_topics-v2 .b-link {
+    background-color: #0000003d;   
+  }
+  .b-forum .faye-loader, .b-comments .messages-postloader, .b-comments .faye-loader, .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander, .collapsed+.spoiler .hide-expanded, .collapsed {
+      background-color: #0000002e;
+  }
+  .b-forum .faye-loader:hover, .b-comments .messages-postloader:hover, .b-comments .faye-loader:hover, .b-comments .comments-loader:hover, .b-comments .comments-hider:hover, .b-comments .comments-expander:hover, .collapsed+.spoiler .hide-expanded:hover, .collapsed:hover {
+    background-color: #0000004d;
+}
+  .b-quote, .b-quote-v2 {
+    background: #1c1c1c70;
+    border-color: #33333370;
+    background-color: var(--color-surface);
+  }
+  
+  .p-messages header.head, .p-dialogs header.head {
+      background: #00000030;
+  }
+  .b-user16 a, a.b-user16 {
+      background: #00000033;
+  }
+  .b-editable_grid tbody tr:nth-child(odd) td, .b-pages, .subheadline-input {
+      background: #00000063;
+  }
+  .p-dashboards-show .v2 .fc-user-sections .tag-link {
+    background-color: #00000040 !important;
+  }
+  .tooltip-inner {
+    background: #00000085;
+    backdrop-filter: blur(100px);
+  }
+  .p-user_rates-index .list-lines tr.edit-form form {
+    background: #0000004d;  
+  }
+  .b-collection_search .field input {
+    background: #0000004d;
+  }
+  .p-user_rates-index .l-content>.mylist {
+    background: #00000082;
+  }
+  .l-footer::before {
+    content: "theme by Onzi";
+  }
+  .p-user_rates-index .list-lines tr td .new-value input {
+    background: #0000004d;
+  }  
+  .b-height_shortener .expand span {
+    background: #0000007d;
+  }  
+  .p-animes-show .other-names, .p-animes-show .more-info, .p-mangas-show .other-names, .p-mangas-show .more-info, .p-ranobe-show .other-names, .p-ranobe-show .more-info {
+      background-color: #00000054;
+    }
+  /* Блюр истории */
+  .p-profiles .profile-head .c-history.x3>div:nth-child(2) {
+    filter: blur(4px);
+    transition: 0.4s;
+  }
+  .p-profiles .profile-head .c-history.x3:hover>div:nth-child(2) {
+    filter: blur(0px);
+  }
+  .b-tag[href] {
+    background-color: #00000052;
+  }  
+  /* чат */
+  .icon[data-v-10fc0338]:not(.is-disabled) {
+      color: #ffffffa3;
+  }
+  .ProseMirror {
+    background-color: var(--color-surface);
+    color: #ffffffcf;
+    border: none;
+    box-shadow: 0px 0px 9px 0px rgb(221 87 112);
+  }
+  .ProseMirror-focused {
+    box-shadow: 0px 0px 9px 0px rgb(221 87 112);
+  }
+  .menubar[data-v-082d85bb] {
+  background-color: var(--color-surface);
+  }
+  .unsaved-content[data-v-082d85bb] {
+    background: #000000;
+  }
+  /* Код */
+  .cm-s-solarized.cm-s-light {
+      background-color: #00000000;
+      color: #00bbff;
+  }
+  .cm-s-solarized.cm-s-light .CodeMirror-gutters {
+    background-color: #00000082;  
+  }}
