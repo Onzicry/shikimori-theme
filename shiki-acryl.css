@@ -8,6 +8,7 @@
   --color-menu-background-active: #00000096;
   --color-background: #2b1318;
   --color-surface: #1c1c1c70;
+  --color-menu-background-hover: #0000006b;
 }
 .l-top_menu-v2 {
   background-color: #28131ae0;
@@ -30,7 +31,7 @@
   --user-cover: url("");
   /* Фон сайта */
   --user-background: url("https://i.imgur.com/yPoh5LZ.gif");
-}
+}}
 /* Моя обложка в профиле */
 .p-profiles .profile-head[data-user-id="1221358"]::before {
   display: block; /* Отображение обложки */
@@ -171,4 +172,4 @@ background-color: var(--color-surface);
 }
 .cm-s-solarized.cm-s-light .CodeMirror-gutters {
   background-color: #00000082;  
-}}
+}
