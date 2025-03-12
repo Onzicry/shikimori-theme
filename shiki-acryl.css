@@ -54,6 +54,9 @@
   height: 160px;
 } 
 /* Прочее настройки */
+.b-spoiler_block {
+  background-color: rgb(0 0 0 / 20%);
+}
 .b-code-v2 {
   background: #0000003d;
 }
