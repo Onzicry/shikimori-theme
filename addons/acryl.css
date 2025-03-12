@@ -27,7 +27,7 @@
     --user-cover: url("");
     /* Фон сайта */
     --user-background: url("https://i.imgur.com/yPoh5LZ.gif");
-  }
+  }}
   /* Моя обложка в профиле */
   .p-profiles .profile-head[data-user-id="1221358"]::before {
     display: block; /* Отображение обложки */
@@ -168,4 +168,4 @@
   }
   .cm-s-solarized.cm-s-light .CodeMirror-gutters {
     background-color: #00000082;  
-  }}
+  }
