@@ -9,6 +9,7 @@
   --color-background: #2b1318;
   --color-surface: #1c1c1c70;
   --color-menu-background-hover: #0000006b;
+  --l-sticky--top: 0px;
 }
 .l-top_menu-v2 {
   background-color: #28131ae0;
@@ -105,7 +106,7 @@
 }
 
 .p-messages header.head, .p-dialogs header.head {
-    background: #00000030;
+    background: #00000000;
 }
 .b-user16 a, a.b-user16 {
     background: #00000033;
