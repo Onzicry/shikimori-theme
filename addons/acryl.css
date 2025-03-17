@@ -51,7 +51,7 @@
   } 
   /* Прочее настройки */
 .b-spoiler_inline.is-opened {
-    background-color: rgb(0 0 0 / 35%);
+    background-color: rgb(255 255 255 / 9%);
 }
   .b-options-floated a:after, .b-options-floated .link:after {
     content: ' ';
