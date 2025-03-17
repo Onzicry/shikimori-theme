@@ -11,6 +11,19 @@
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/font-roboto.css");
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/material_dark.css");
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/acryl.css");
+
+  /* Настройки темы */
+  @media{:root {
+    /* Обложка профиля */
+    --user-cover: url("");
+    /* Фон сайта */
+    --user-background: url("");
+  }}
+  /* Анимированная аватарка */  
+  .avatar img[title=""] {
+    content: url("");
+    height: 160px;
+  } 
 ```
 ㅤ
 
