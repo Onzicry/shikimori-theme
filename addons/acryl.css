@@ -123,7 +123,8 @@
     background: #0000004d;
   }
   .p-user_rates-index .l-content>.mylist {
-    background: #00000082;
+    background: #00000000;
+    justify-content: center;
   }
   .l-footer::before {
     content: "theme by Onzi";
