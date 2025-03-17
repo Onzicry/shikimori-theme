@@ -17,7 +17,7 @@
     /* Обложка профиля */
     --user-cover: url("");
     /* Фон сайта */
-    --user-background: url("");
+    --user-background: url("https://i.imgur.com/yPoh5LZ.gif");
   }}
   /* Анимированная аватарка */  
   .avatar img[title=""] {
