@@ -21,7 +21,7 @@
   }}
   /* Анимированная аватарка */  
   .avatar img[title=""] {
-    content: url("");
+    content: url("ссылка на gif");
     height: 160px;
   } 
 ```
