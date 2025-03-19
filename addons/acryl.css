@@ -18,7 +18,7 @@
   }
   .l-top_menu-v2 .submenu {     
      background: var(--blur-background);
-     backdrop-filter: var(--blur)
+     backdrop-filter: var(--blur);
    }
    .l-top_menu-v2 .global-search .search-results {
     top: var(--menu-height);
