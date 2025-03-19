@@ -5,7 +5,7 @@
     --color-surface: #1c1c1c70;
     --color-menu-background-hover: #0000006b;
     --color-accent-fade: #00000038;
-    --color-border-page: rgb(147 58 74);
+    --color-border-page: rgb(76 112 121); ;
     --blur: blur(20px) saturate(0.5);
     --blur-background: #00000080;
   }
@@ -41,7 +41,7 @@
     backdrop-filter: var(--blur);
     background: #00000080;
     border-radius: 10px; 
-    box-shadow: inset 0px 0px 20px 0px var(--color-border-page);        
+    box-shadow: inset 0px 0px 20px 0px var(--color-border-page);    
   }
   .p-profiles .profile-head .c-brief {
     background-color: #00000000;
