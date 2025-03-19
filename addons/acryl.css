@@ -20,11 +20,11 @@
      background: rgba(0, 0, 0, .6);
      backdrop-filter: blur(100px);
    }
-  .l-top_menu-v2 .global-search .search-results {
-      top: var(--menu-height);
-      background: var(--blur-background);
-      backdrop-filter: var(--blur); 
-  }
+   .l-top_menu-v2 .global-search .search-results {
+    top: var(--menu-height);
+    background: var(--blur-background);
+    backdrop-filter: var(--blur);
+}
   /* Настройки переменных темы */
   @media{:root {
     /* Обложка профиля */
