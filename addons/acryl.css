@@ -163,6 +163,9 @@
   .p-profiles .profile-head .c-history.x3:hover>div:nth-child(2) {
     filter: blur(0px);
   }
+  .b-tag {
+    background-color: #00000040 !important;
+  }
   .b-tag[href] {
     background-color: #00000052;
   }  
