@@ -21,7 +21,7 @@
   --color-border-page: rgb(147 58 74);
 }}
 /* Анимированная аватарка */ 
-.avatar img[title=""] {
+.avatar img[title="ВАШ НИК"] {
   content: url("ссылка на gif");
   height: 160px;
 }
