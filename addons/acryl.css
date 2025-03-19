@@ -7,6 +7,8 @@
     --color-menu-background-hover: #0000006b;
     --color-accent-fade: #00000038;
     --color-border-page: rgb(147 58 74);
+    --blur: blur(20px) saturate(0.5);
+    --blur-background: #00000038;
   }
   .l-top_menu-v2 {
     background-color: #28131ae0;
@@ -53,11 +55,11 @@
   } 
   /* Прочее настройки */
   .b-achievements_notifier .achievement.gained, .b-achievements_notifier .achievement.lost {
-    background: #00000038;
-    backdrop-filter: blur(20px) saturate(0.5);
+    background: var(--blur-background);
+    backdrop-filter: var(--blur);
   }
   .b-achievements_notifier .achievement.gained:hover, .b-achievements_notifier .achievement.lost:hover {
-    background: #00000038;
+    background: var(--blur-background);
 }
   .b-spoiler_inline.is-opened {
     background-color: rgb(255 255 255 / 9%);
