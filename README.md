@@ -11,19 +11,20 @@
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/font-roboto.css");
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/material_dark.css");
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/acryl.css");
-
-  /* Настройки темы */
-  @media{:root {
-    /* Обложка профиля */
-    --user-cover: url("");
-    /* Фон сайта */
-    --user-background: url("https://i.imgur.com/yPoh5LZ.gif");
-  }}
-  /* Анимированная аватарка */  
-  .avatar img[title=""] {
-    content: url("ссылка на gif");
-    height: 160px;
-  } 
+/* Настройки темы */
+@media{:root {
+  /* Обложка профиля */
+  --user-cover: url("");
+  /* Фон сайта */
+  --user-background: url("https://i.imgur.com/yPoh5LZ.gif");
+  /* цвет рамки */
+  --color-border-page: rgb(147 58 74);
+}}
+/* Анимированная аватарка */ 
+.avatar img[title=""] {
+  content: url("ссылка на gif");
+  height: 160px;
+}
 ```
 ㅤ
 
