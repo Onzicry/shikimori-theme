@@ -242,7 +242,10 @@
   }
   .p-user_rates-index .list-lines tr td .new-value input {
     background: #0000004d;
-  }  
+  }
+  .b-height_shortener .expand span {
+    background: #0000007d;
+  }    
   .b-height_shortener .shade {
     --c-shade-bottom: #121618;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #121618ba);
