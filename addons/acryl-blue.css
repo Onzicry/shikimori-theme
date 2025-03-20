@@ -63,6 +63,19 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  .b-shiki_editor-v2 footer .cancel:not(a), .b-shiki_editor-v2 footer .hide:not(a) {
+    color: var(--link-colors);
+    cursor: pointer;
+    border-bottom-color: var(--link-border-color);
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    display: inline-block;
+    line-height: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
   .b-spoiler .content .before, .b-spoiler .content .after {
     color: var(--color-links);
     font-size: inherit;
