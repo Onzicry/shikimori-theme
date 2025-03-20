@@ -9,7 +9,7 @@
     --blur: blur(20px) saturate(0.5);
     --blur-background: #00000080;
     --color-border: rgb(52 63 65);
-    --color-primary: rgba(52, 63, 65, 0);
+    --color-primary: rgb(52 63 65);
   }
   .l-top_menu-v2 {
     background-color: #444b4cad;
