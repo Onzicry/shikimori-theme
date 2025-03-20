@@ -10,6 +10,7 @@
     --blur-background: #00000080;
     --color-border: rgb(52 63 65);
     --color-primary-bor: rgb(52 63 65);
+    --color-links: #8ea7ae;
   }
   .l-top_menu-v2 {
     background-color: #444b4cad;
@@ -55,6 +56,9 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  .p-user_rates-index .list-lines tr .name a {
+    color: var(--color-link);
+}
   .b-shiki_editor .body .editor textarea,.b-input select,.b-input input,.b-input textarea {
     box-shadow: 0 0 0 1px var(--color-border) inset;
 }
