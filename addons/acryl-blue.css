@@ -56,6 +56,10 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  .p-user_rates-index .stat-categories .category {
+    height: 20px;
+    color: var(--color-links);
+}
   .p-user_rates-index .list-lines tr .name a {
     color: var(--color-links);
 }
