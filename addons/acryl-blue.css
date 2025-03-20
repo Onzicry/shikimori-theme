@@ -57,6 +57,12 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  header.head a.misc, header.head a.edit {
+    color: var(--color-links);
+}
+  .b-options-floated .action {
+    color: var(--color-links);
+}
   .b-link {
     color: var(--link-colors);
     cursor: pointer;
