@@ -62,6 +62,15 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  a {
+    color: var(--color-links);
+}
+  .b-source .contributors .val a, .b-source .mal .val a, .b-source .source .val a {
+    color: var(--color-links);
+}
+  .b-abuse_request .ban-form .cancel, .b-bracket-actions>div, .b-bracket-actions>span, .b-cosplay-topic>.inner .cosplay-info .line .value a, .b-cosplay_gallery h3 a, .b-db_entry>.c-about .additional-links .line-container>.link, .b-db_entry>.c-about .additional-links .line-container>a, .b-feedback-inner .about a, .b-form .variants .variant a, .b-forums .forum .link-with-input .link, .b-forums .reload, .b-header_filters .filter-line a, .b-js-action, .b-person .name, .b-user.named_avatar .name, .subheadline .misc-link, .b-animes-menu .menu-topics-block .history-entry-tooltip a, .p-animes-files .l-content a, .p-mangas-files .l-content a, .p-dashboards .c-my_list .list-type>.title .link, .p-dashboards .c-my_list .history>.title .link, .p-dashboards .c-my_list .list-type>.title .switch, .p-dashboards .c-my_list .history>.title .switch, .p-dashboards .user_list .list-type>.title .link, .p-dashboards .user_list .history>.title .link, .p-dashboards .user_list .list-type>.title .switch, .p-dashboards .user_list .history>.title .switch, .p-dashboards-show .midheadline .b-link, .p-dashboards-show .c-content .options .option, .p-db_entries-edit_field .cc-genres>.c-all_genres .genre:not(.included) .name, .p-studios .studio .name, .p-translations .animes a, .b-log_entry .comment-block ins, .p-statistics-index .forum-nav .sections a.selected, .b-animes-menu .menu-topics-block a.entry .name, .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a {
+    color: var(--color-links);
+}
   .p-profiles-show .b-stats_bar.manga .bar .second {
     background: var(--color-accent-reduced);
 }
