@@ -56,6 +56,11 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  .b-spoiler label {
+    color: var(--color-links);
+    font-size: inherit;
+    letter-spacing: initial;
+}
   .p-user_rates-index .stat-categories .category {
     height: 20px;
     color: var(--color-links);
