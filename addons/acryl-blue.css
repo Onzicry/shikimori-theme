@@ -14,6 +14,7 @@
     --link-colors: #8ea7ae;
     --color-overlay-primary-selected: rgb(98 151 157 / 12%);
     --color-primary: #8ea7ae;
+    --color-primary-reduced: #4f666d
   }
   .l-top_menu-v2 {
     background-color: #444b4cad;
@@ -59,6 +60,9 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  .line:nth-child(even)>.bar-container>.bar, .line:nth-child(even)>.bar-container>.bar:hover {
+    background-color: var(--color-primary-reduced);
+}
   .p-profiles-show .b-stats_bar.manga a.title, .p-profiles-show .b-stats_bar.anime a.title, .b-contest_match .vs .actions .action span, .b-topic-preview>.editor-container .hide, .b-shiki_editor footer .cancel, .b-shiki_editor footer .unpreview:not(.link), .b-poll .poll-actions .abstain, .b-form .cancel, a.b-button+.b-js-link, a.b-button+.cancel, .b-button, .headline>a, .midheadline>a, .subheadline>a {
     color: var(--color-primary);
 }
