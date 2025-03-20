@@ -8,8 +8,6 @@
     --color-border-page: rgb(76 112 121); ;
     --blur: blur(20px) saturate(0.5);
     --blur-background: #00000080;
-    --color-border: box-shadow: 0 0 0 1px rgb(52 63 65) inset;
-    --color-primary: none;
   }
   .l-top_menu-v2 {
     background-color: #444b4cad;
@@ -56,10 +54,10 @@
   } 
   /* Прочее настройки */
   .b-shiki_editor .body .editor textarea:hover,.b-input select:hover,.b-input input:hover,.b-input textarea:hover {
-    box-shadow: 0 0 0 2px var(--color-border) inset
+    box-shadow: 0 0 0 2px rgb(52 63 65) inset
 }
 .b-shiki_editor .body .editor textarea:focus,.b-input select:focus,.b-input input:focus,.b-input textarea:focus {
-  box-shadow: 0 0 0 2px var(--color-primary) inset;
+  box-shadow: 0 0 0 2px none inset;
   outline: none
 }
   .b-achievements_notifier .achievement.gained, .b-achievements_notifier .achievement.lost {
