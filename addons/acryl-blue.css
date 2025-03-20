@@ -63,6 +63,13 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  .b-options-floated a, .b-options-floated .link {
+    color: var(--color-links);
+}
+  .b-user_history-line a.db-entry {
+    color: var(--link-colors);
+    text-decoration: none;
+}
   .b-shiki_editor-v2 footer .cancel:not(a), .b-shiki_editor-v2 footer .hide:not(a) {
     color: var(--link-colors);
     cursor: pointer;
