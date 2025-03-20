@@ -62,6 +62,11 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  .b-spoiler .content .before, .b-spoiler .content .after {
+    color: var(--color-links);
+    font-size: inherit;
+    letter-spacing: initial;
+}
   .b-review-topic.is-review_review_author_details>.inner .review-info .user-rate-label {
     color: #838383;
     font-size: 12px;
