@@ -13,7 +13,7 @@
 /* Настройки темы */
 @media{:root {
   /* Обложка профиля  --user-cover: url(""); */
-  /* Фон сайта */ --user-background: url("https://i.imgur.com/Tzh6dQ8.gif");
+  /* Фон сайта  --user-background: url("https://i.imgur.com/Tzh6dQ8.gif"); */
   /* цвет рамки  --color-border-page: rgb(); */
 }}
 /* Анимированная аватарка */ 
