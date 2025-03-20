@@ -59,6 +59,9 @@
   .p-user_rates-index .list-lines tr .name a {
     color: var(--color-links);
 }
+.b-options-floated.mobile-desktop a, .b-options-floated.mobile-phone_portrait a, .b-options-floated.mobile-phone a, .b-options-floated.mobile-tablet a {
+  color: var(--color-links);
+}
   .b-shiki_editor .body .editor textarea,.b-input select,.b-input input,.b-input textarea {
     box-shadow: 0 0 0 1px var(--color-border) inset;
 }
