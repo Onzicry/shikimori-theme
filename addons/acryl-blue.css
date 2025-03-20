@@ -60,6 +60,10 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  .p-profiles .profile-head .c-info .c-additionals div a {
+    color: var(--link-colors);
+    cursor: pointer;
+}
   .line:nth-child(even)>.bar-container>.bar, .line:nth-child(even)>.bar-container>.bar:hover {
     background-color: var(--color-primary-reduced);
 }
