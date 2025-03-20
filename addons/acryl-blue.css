@@ -17,6 +17,7 @@
     --color-primary-reduced: #4f666d;
     --color-accent: #4c8781;
     --color-accent-reduced: #315753;
+    --c-shade-bottom: #121618;
   }
   .l-top_menu-v2 {
     background-color: #444b4cad;
@@ -242,9 +243,10 @@
   .p-user_rates-index .list-lines tr td .new-value input {
     background: #0000004d;
   }  
-  .b-height_shortener .expand span {
-    background: #0000007d;
-  }  
+  .b-height_shortener .shade {
+    --c-shade-bottom: #121618;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #121618ba);
+} 
   .p-animes-show .other-names, .p-animes-show .more-info, .p-mangas-show .other-names, .p-mangas-show .more-info, .p-ranobe-show .other-names, .p-ranobe-show .more-info {
       background-color: #00000054;
     }
