@@ -1,7 +1,8 @@
 <h1 align="center">Shikimori-Acryl-Theme</a> 
   
 ㅤ
-![image](https://github.com/user-attachments/assets/d5f9f152-c463-4820-81e1-fdbbb2dad03d)
+![image](https://github.com/user-attachments/assets/f878f620-eb27-4e68-820c-2322e1ab2bfb)
+
 
 
 <h3 align="center">Вставить в настройках Шикимори</h3>
