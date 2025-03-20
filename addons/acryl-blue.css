@@ -19,6 +19,11 @@
     --color-accent-reduced: #315753;
     --c-shade-bottom: #121618;
   }
+@media screen and (max-width: 1023px) {
+    body {
+        background: !important;
+    }
+}
   .l-top_menu-v2 {
     background-color: #444b4cad;
   }
