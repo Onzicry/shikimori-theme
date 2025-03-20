@@ -60,6 +60,11 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  a.b-mention {
+    color: var(--link-colors);
+    cursor: pointer;
+    text-decoration: none;
+}
   .p-profiles .profile-head .c-info .c-additionals div a {
     color: var(--link-colors);
     cursor: pointer;
