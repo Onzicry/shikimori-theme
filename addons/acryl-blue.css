@@ -63,6 +63,9 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  .b-ban a, .b-ban .link, .b-log_entry a, .b-log_entry .link, .b-user_rate_log a, .b-user_rate_log .link {
+    color: var(--color-links);
+}
   .b-options-floated a, .b-options-floated .link {
     color: var(--color-links);
 }
