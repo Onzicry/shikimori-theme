@@ -60,6 +60,12 @@
     height: 160px;
   } 
   /* Прочее настройки */
+  .p-dashboards-show .v2 .my-list .label .misc-links a {
+    display: inline-block;
+    color: var(--color-links);
+    font-size: 14px;
+    line-height: inherit;
+}
   a.b-mention {
     color: var(--link-colors);
     cursor: pointer;
