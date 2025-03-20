@@ -57,7 +57,7 @@
   } 
   /* Прочее настройки */
   .p-user_rates-index .list-lines tr .name a {
-    color: var(--color-link);
+    color: var(--color-links);
 }
   .b-shiki_editor .body .editor textarea,.b-input select,.b-input input,.b-input textarea {
     box-shadow: 0 0 0 1px var(--color-border) inset;
