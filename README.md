@@ -12,12 +12,9 @@
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/acryl-blue.css");
 /* Настройки темы */
 @media{:root {
-  /* Обложка профиля */
-  --user-cover: url("");
-  /* Фон сайта */
-  --user-background: url("https://i.imgur.com/Tzh6dQ8.gif");
-  /* цвет рамки */
-  --color-border-page: rgb();
+  /* Обложка профиля  --user-cover: url(""); */
+  /* Фон сайта  --user-background: url("https://i.imgur.com/Tzh6dQ8.gif"); */
+  /* цвет рамки  --color-border-page: rgb(); */
 }}
 /* Анимированная аватарка */ 
 .avatar img[title="ВАШ НИК"] {
