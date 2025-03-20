@@ -8,8 +8,8 @@
     --color-border-page: rgb(76 112 121); ;
     --blur: blur(20px) saturate(0.5);
     --blur-background: #00000080;
-    --color-border: box-shadow: 0 0 0 2px #384c51 inset;
-    --color-primary: #4c7079;
+    --color-border: box-shadow: 0 0 0 1px rgb(52 63 65) inset;
+    --color-primary: none;
   }
   .l-top_menu-v2 {
     background-color: #444b4cad;
