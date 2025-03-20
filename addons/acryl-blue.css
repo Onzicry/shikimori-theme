@@ -24,6 +24,11 @@
         background: url(https://i.imgur.com/3zSt0ll.png) !important;
     }
 }
+@media screen and (max-width: 959px) {
+    .p-profiles .profile-head .c-history {
+        background-color: rgb(0 0 0 / 8%);
+    }
+}
   .l-top_menu-v2 {
     background-color: #444b4cad;
   }
