@@ -68,10 +68,10 @@
     box-shadow: 0 6px 8px -2px rgba(0, 0, 0, 0);         
   }
   /* Анимированная аватарка */  
-  .avatar img[title="Onzi"] {
+ /* .avatar img[title="Onzi"] {
     content: url("https://i.imgur.com/MVmZnbK.gif");
     height: 160px;
-  } 
+  } */ 
   /* Прочее настройки */
   .b-ban a, .b-ban .link, .b-log_entry a, .b-log_entry .link, .b-user_rate_log a, .b-user_rate_log .link {
     color: var(--color-links);
