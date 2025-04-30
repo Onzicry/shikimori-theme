@@ -73,6 +73,9 @@
     height: 160px;
   } */ 
   /* Прочее настройки */
+  ::selection {
+    background: #fff;
+  }
   .b-ban a, .b-ban .link, .b-log_entry a, .b-log_entry .link, .b-user_rate_log a, .b-user_rate_log .link {
     color: var(--color-links);
 }
