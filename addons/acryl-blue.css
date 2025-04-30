@@ -74,7 +74,8 @@
   } */ 
   /* Прочее настройки */
   ::selection {
-    background: #fff;
+    background: #131719;
+    color: #607075;
   }
   .b-ban a, .b-ban .link, .b-log_entry a, .b-log_entry .link, .b-user_rate_log a, .b-user_rate_log .link {
     color: var(--color-links);
