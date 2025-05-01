@@ -20,12 +20,13 @@
   --color-accent-reduced: #315753;
   --c-shade-bottom: #121618;
 }
-
+/*  
 @media screen and (max-width: 1023px) {
   body {
     background: url(https://i.imgur.com/3zSt0ll.png) !important;
   }
 }
+*/
 
 @media screen and (max-width: 959px) {
   .p-profiles .profile-head .c-history {
@@ -75,19 +76,12 @@
   backdrop-filter: var(--blur);
   background: #00000080;
   border-radius: 10px;
-  box-shadow: inset 0px 0px 20px 0px var(--color-border-page);
 }
 
 .p-profiles .profile-head .c-brief {
   background-color: #00000000;
   box-shadow: 0 6px 8px -2px rgba(0, 0, 0, 0);
 }
-
-/* Анимированная аватарка */
-/* .avatar img[title="Onzi"] {
-    content: url("https://i.imgur.com/MVmZnbK.gif");
-    height: 160px;
-  } */
 /* Прочее настройки */
 ::selection {
   background: #131719;
