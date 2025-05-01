@@ -56,7 +56,11 @@
     --user-background: url("https://i.imgur.com/WbELrJU.gif");
   }
 }
-
+@media (max-width: 1024px) {
+  body {
+    background: var(--user-background) !important;
+  }
+}
 /* Моя обложка в профиле */
 .p-profiles .profile-head[data-user-id="1221358"]::before {
   display: block;
