@@ -1,334 +1,545 @@
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/main.css");
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/font-roboto.css");
 @import url("https://raw.githubusercontent.com/Onzicry/shikimori-theme/refs/heads/main/addons/material_dark.css");
+
 /* шапка */
 :root {
-    --color-menu-background: #00000000;
-    --color-menu-background-active: #00000096;
-    --color-surface: #1c1c1c70;
-    --color-menu-background-hover: #0000006b;
-    --color-accent-fade: #00000038;
-    --color-border-page: rgb(76 112 121); ;
-    --blur: blur(20px) saturate(0.5);
-    --blur-background: #414b4d80;
-    --color-border: rgb(52 63 65);
-    --color-primary-bor: rgb(52 63 65);
-    --color-links: #8ea7ae;
-    --link-colors: #8ea7ae;
-    --color-overlay-primary-selected: rgb(98 151 157 / 12%);
-    --color-primary: #8ea7ae;
-    --color-primary-reduced: #4f666d;
-    --color-accent: #4c8781;
-    --color-accent-reduced: #315753;
-    --c-shade-bottom: #121618;
-  }
-  @media screen and (max-width: 1023px) {
-    body {
-        background: url(https://i.imgur.com/3zSt0ll.png) !important;
-    }
+  --color-menu-background: #00000000;
+  --color-menu-background-active: #00000096;
+  --color-surface: #1c1c1c70;
+  --color-menu-background-hover: #0000006b;
+  --color-accent-fade: #00000038;
+  --color-border-page: rgb(76 112 121);
+  ;
+  --blur: blur(20px) saturate(0.5);
+  --blur-background: #414b4d80;
+  --color-border: rgb(52 63 65);
+  --color-primary-bor: rgb(52 63 65);
+  --color-links: #8ea7ae;
+  --link-colors: #8ea7ae;
+  --color-overlay-primary-selected: rgb(98 151 157 / 12%);
+  --color-primary: #8ea7ae;
+  --color-primary-reduced: #4f666d;
+  --color-accent: #4c8781;
+  --color-accent-reduced: #315753;
+  --c-shade-bottom: #121618;
 }
+
+@media screen and (max-width: 1023px) {
+  body {
+    background: url(https://i.imgur.com/3zSt0ll.png) !important;
+  }
+}
+
 @media screen and (max-width: 959px) {
-    .p-profiles .profile-head .c-history {
-        background-color: rgb(0 0 0 / 8%);
-    }
-}
-  .l-top_menu-v2 {
-    background-color: #444b4cad;
+  .p-profiles .profile-head .c-history {
+    background-color: rgb(0 0 0 / 8%);
   }
-  #profiles_show .l-top_menu-v2 {
-      background-color: #444b4cad;
-  }
-  .l-top_menu-v2 .submenu {     
-     background: var(--blur-background);
-     backdrop-filter: var(--blur);
-   }
-   .l-top_menu-v2 .global-search .search-results {
-    top: var(--menu-height);
-    background: var(--blur-background);
-    backdrop-filter: var(--blur);
 }
-  /* Настройки переменных темы */
-  @media{:root {
+
+.l-top_menu-v2 {
+  background-color: #444b4cad;
+}
+
+#profiles_show .l-top_menu-v2 {
+  background-color: #444b4cad;
+}
+
+.l-top_menu-v2 .submenu {
+  background: var(--blur-background);
+  backdrop-filter: var(--blur);
+}
+
+.l-top_menu-v2 .global-search .search-results {
+  top: var(--menu-height);
+  background: var(--blur-background);
+  backdrop-filter: var(--blur);
+}
+
+/* Настройки переменных темы */
+@media {
+  :root {
     /* Обложка профиля */
     --user-cover: url("");
     /* Фон сайта */
     --user-background: url("https://i.imgur.com/Tzh6dQ8.gif");
-  }}
-  /* Моя обложка в профиле */
-  .p-profiles .profile-head[data-user-id="1221358"]::before {
-    display: block; /* Отображение обложки */
-    background-position: center 50%;
   }
-  /* прозрачная страница */
-  .l-page {
-    backdrop-filter: var(--blur);
-    background: #00000080;
-    border-radius: 10px; 
-    box-shadow: inset 0px 0px 20px 0px var(--color-border-page);    
-  }
-  .p-profiles .profile-head .c-brief {
-    background-color: #00000000;
-    box-shadow: 0 6px 8px -2px rgba(0, 0, 0, 0);         
-  }
-  /* Анимированная аватарка */  
-  .avatar img[title="Onzi"] {
-    content: url("https://i.imgur.com/MVmZnbK.gif");
-    height: 160px;
-  } 
-  /* Прочее настройки */
-  .b-ban a, .b-ban .link, .b-log_entry a, .b-log_entry .link, .b-user_rate_log a, .b-user_rate_log .link {
-    color: var(--color-links);
 }
-  .b-options-floated a, .b-options-floated .link {
-    color: var(--color-links);
+
+/* Моя обложка в профиле */
+.p-profiles .profile-head[data-user-id="1221358"]::before {
+  display: block;
+  /* Отображение обложки */
+  background-position: center 50%;
 }
-  .b-user_history-line a.db-entry {
-    color: var(--link-colors);
-    text-decoration: none;
+
+/* прозрачная страница */
+.l-page {
+  backdrop-filter: var(--blur);
+  background: #00000080;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 20px 0px var(--color-border-page);
 }
-  .b-shiki_editor-v2 footer .cancel:not(a), .b-shiki_editor-v2 footer .hide:not(a) {
-    color: var(--link-colors);
-    cursor: pointer;
-    border-bottom-color: var(--link-border-color);
-    border-bottom-style: dotted;
-    border-bottom-width: 1px;
-    display: inline-block;
-    line-height: 1;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+
+.p-profiles .profile-head .c-brief {
+  background-color: #00000000;
+  box-shadow: 0 6px 8px -2px rgba(0, 0, 0, 0);
 }
-  .b-spoiler .content .before, .b-spoiler .content .after {
-    color: var(--color-links);
-    font-size: inherit;
-    letter-spacing: initial;
+
+/* Анимированная аватарка */
+.avatar img[title="Onzi"] {
+  content: url("https://i.imgur.com/MVmZnbK.gif");
+  height: 160px;
 }
-  .b-review-topic.is-review_review_author_details>.inner .review-info .user-rate-label {
-    color: #838383;
-    font-size: 12px;
-    line-height: 12px;
-    white-space: nowrap;
-}
-  .b-review-topic.is-review_review_author_details>.inner .review-info .neutral {
-    color: #5c87b1;
-}
-  a {
-    color: var(--color-links);
-}
-  .b-source .contributors .val a, .b-source .mal .val a, .b-source .source .val a {
-    color: var(--color-links);
-}
-  .b-abuse_request .ban-form .cancel, .b-bracket-actions>div, .b-bracket-actions>span, .b-cosplay-topic>.inner .cosplay-info .line .value a, .b-cosplay_gallery h3 a, .b-db_entry>.c-about .additional-links .line-container>.link, .b-db_entry>.c-about .additional-links .line-container>a, .b-feedback-inner .about a, .b-form .variants .variant a, .b-forums .forum .link-with-input .link, .b-forums .reload, .b-header_filters .filter-line a, .b-js-action, .b-person .name, .b-user.named_avatar .name, .subheadline .misc-link, .b-animes-menu .menu-topics-block .history-entry-tooltip a, .p-animes-files .l-content a, .p-mangas-files .l-content a, .p-dashboards .c-my_list .list-type>.title .link, .p-dashboards .c-my_list .history>.title .link, .p-dashboards .c-my_list .list-type>.title .switch, .p-dashboards .c-my_list .history>.title .switch, .p-dashboards .user_list .list-type>.title .link, .p-dashboards .user_list .history>.title .link, .p-dashboards .user_list .list-type>.title .switch, .p-dashboards .user_list .history>.title .switch, .p-dashboards-show .midheadline .b-link, .p-dashboards-show .c-content .options .option, .p-db_entries-edit_field .cc-genres>.c-all_genres .genre:not(.included) .name, .p-studios .studio .name, .p-translations .animes a, .b-log_entry .comment-block ins, .p-statistics-index .forum-nav .sections a.selected, .b-animes-menu .menu-topics-block a.entry .name, .b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a {
-    color: var(--color-links);
-}
-  .p-profiles-show .b-stats_bar.manga .bar .second {
-    background: var(--color-accent-reduced);
-}
-  .p-profiles-show .b-stats_bar.manga .bar .first {
-    background: var(--color-accent);
-}
-  .p-dashboards-show .v2 .my-list .label .misc-links a {
-    display: inline-block;
-    color: var(--color-links);
-    font-size: 14px;
-    line-height: inherit;
-}
-  a.b-mention {
-    color: var(--link-colors);
-    cursor: pointer;
-    text-decoration: none;
-}
-  .p-profiles .profile-head .c-info .c-additionals div a {
-    color: var(--link-colors);
-    cursor: pointer;
-}
-  .line:nth-child(even)>.bar-container>.bar, .line:nth-child(even)>.bar-container>.bar:hover {
-    background-color: var(--color-primary-reduced);
-}
-  .p-profiles-show .b-stats_bar.manga a.title, .p-profiles-show .b-stats_bar.anime a.title, .b-contest_match .vs .actions .action span, .b-topic-preview>.editor-container .hide, .b-shiki_editor footer .cancel, .b-shiki_editor footer .unpreview:not(.link), .b-poll .poll-actions .abstain, .b-form .cancel, a.b-button+.b-js-link, a.b-button+.cancel, .b-button, .headline>a, .midheadline>a, .subheadline>a {
-    color: var(--color-primary);
-}
-  .b-collection-filters .b-block_list li.selected {
-    background-color: rgb(98 151 157 / 12%);
-    color: inherit;
-}
-  header.head a.misc, header.head a.edit {
-    color: var(--color-links);
-}
-  .b-options-floated .action {
-    color: var(--color-links);
-}
-  .b-link {
-    color: var(--link-colors);
-    cursor: pointer;
-}
-  .b-spoiler label {
-    color: var(--color-links);
-    font-size: inherit;
-    letter-spacing: initial;
-}
-  .p-user_rates-index .stat-categories .category {
-    height: 20px;
-    color: var(--color-links);
-}
-  .p-user_rates-index .list-lines tr .name a {
-    color: var(--color-links);
-}
-.b-options-floated.mobile-desktop a, .b-options-floated.mobile-phone_portrait a, .b-options-floated.mobile-phone a, .b-options-floated.mobile-tablet a {
+
+/* Прочее настройки */
+.b-ban a,
+.b-ban .link,
+.b-log_entry a,
+.b-log_entry .link,
+.b-user_rate_log a,
+.b-user_rate_log .link {
   color: var(--color-links);
 }
-  .b-shiki_editor .body .editor textarea,.b-input select,.b-input input,.b-input textarea {
-    box-shadow: 0 0 0 1px var(--color-border) inset;
+
+.b-options-floated a,
+.b-options-floated .link {
+  color: var(--color-links);
 }
-.b-shiki_editor .body .editor textarea:focus,.b-input select:focus,.b-input input:focus,.b-input textarea:focus {
+
+.b-user_history-line a.db-entry {
+  color: var(--link-colors);
+  text-decoration: none;
+}
+
+.b-shiki_editor-v2 footer .cancel:not(a),
+.b-shiki_editor-v2 footer .hide:not(a) {
+  color: var(--link-colors);
+  cursor: pointer;
+  border-bottom-color: var(--link-border-color);
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  display: inline-block;
+  line-height: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.b-spoiler .content .before,
+.b-spoiler .content .after {
+  color: var(--color-links);
+  font-size: inherit;
+  letter-spacing: initial;
+}
+
+.b-review-topic.is-review_review_author_details>.inner .review-info .user-rate-label {
+  color: #838383;
+  font-size: 12px;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.b-review-topic.is-review_review_author_details>.inner .review-info .neutral {
+  color: #5c87b1;
+}
+
+a {
+  color: var(--color-links);
+}
+
+.b-source .contributors .val a,
+.b-source .mal .val a,
+.b-source .source .val a {
+  color: var(--color-links);
+}
+
+.b-abuse_request .ban-form .cancel,
+.b-bracket-actions>div,
+.b-bracket-actions>span,
+.b-cosplay-topic>.inner .cosplay-info .line .value a,
+.b-cosplay_gallery h3 a,
+.b-db_entry>.c-about .additional-links .line-container>.link,
+.b-db_entry>.c-about .additional-links .line-container>a,
+.b-feedback-inner .about a,
+.b-form .variants .variant a,
+.b-forums .forum .link-with-input .link,
+.b-forums .reload,
+.b-header_filters .filter-line a,
+.b-js-action,
+.b-person .name,
+.b-user.named_avatar .name,
+.subheadline .misc-link,
+.b-animes-menu .menu-topics-block .history-entry-tooltip a,
+.p-animes-files .l-content a,
+.p-mangas-files .l-content a,
+.p-dashboards .c-my_list .list-type>.title .link,
+.p-dashboards .c-my_list .history>.title .link,
+.p-dashboards .c-my_list .list-type>.title .switch,
+.p-dashboards .c-my_list .history>.title .switch,
+.p-dashboards .user_list .list-type>.title .link,
+.p-dashboards .user_list .history>.title .link,
+.p-dashboards .user_list .list-type>.title .switch,
+.p-dashboards .user_list .history>.title .switch,
+.p-dashboards-show .midheadline .b-link,
+.p-dashboards-show .c-content .options .option,
+.p-db_entries-edit_field .cc-genres>.c-all_genres .genre:not(.included) .name,
+.p-studios .studio .name,
+.p-translations .animes a,
+.b-log_entry .comment-block ins,
+.p-statistics-index .forum-nav .sections a.selected,
+.b-animes-menu .menu-topics-block a.entry .name,
+.b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a {
+  color: var(--color-links);
+}
+
+.p-profiles-show .b-stats_bar.manga .bar .second {
+  background: var(--color-accent-reduced);
+}
+
+.p-profiles-show .b-stats_bar.manga .bar .first {
+  background: var(--color-accent);
+}
+
+.p-dashboards-show .v2 .my-list .label .misc-links a {
+  display: inline-block;
+  color: var(--color-links);
+  font-size: 14px;
+  line-height: inherit;
+}
+
+a.b-mention {
+  color: var(--link-colors);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.p-profiles .profile-head .c-info .c-additionals div a {
+  color: var(--link-colors);
+  cursor: pointer;
+}
+
+.line:nth-child(even)>.bar-container>.bar,
+.line:nth-child(even)>.bar-container>.bar:hover {
+  background-color: var(--color-primary-reduced);
+}
+
+.p-profiles-show .b-stats_bar.manga a.title,
+.p-profiles-show .b-stats_bar.anime a.title,
+.b-contest_match .vs .actions .action span,
+.b-topic-preview>.editor-container .hide,
+.b-shiki_editor footer .cancel,
+.b-shiki_editor footer .unpreview:not(.link),
+.b-poll .poll-actions .abstain,
+.b-form .cancel,
+a.b-button+.b-js-link,
+a.b-button+.cancel,
+.b-button,
+.headline>a,
+.midheadline>a,
+.subheadline>a {
+  color: var(--color-primary);
+}
+
+.b-collection-filters .b-block_list li.selected {
+  background-color: rgb(98 151 157 / 12%);
+  color: inherit;
+}
+
+header.head a.misc,
+header.head a.edit {
+  color: var(--color-links);
+}
+
+.b-options-floated .action {
+  color: var(--color-links);
+}
+
+.b-link {
+  color: var(--link-colors);
+  cursor: pointer;
+}
+
+.b-spoiler label {
+  color: var(--color-links);
+  font-size: inherit;
+  letter-spacing: initial;
+}
+
+.p-user_rates-index .stat-categories .category {
+  height: 20px;
+  color: var(--color-links);
+}
+
+.p-user_rates-index .list-lines tr .name a {
+  color: var(--color-links);
+}
+
+.b-options-floated.mobile-desktop a,
+.b-options-floated.mobile-phone_portrait a,
+.b-options-floated.mobile-phone a,
+.b-options-floated.mobile-tablet a {
+  color: var(--color-links);
+}
+
+.b-shiki_editor .body .editor textarea,
+.b-input select,
+.b-input input,
+.b-input textarea {
+  box-shadow: 0 0 0 1px var(--color-border) inset;
+}
+
+.b-shiki_editor .body .editor textarea:focus,
+.b-input select:focus,
+.b-input input:focus,
+.b-input textarea:focus {
   box-shadow: 0 0 0 2px var(--color-primary-bor) inset;
 }
-  .b-achievements_notifier .achievement.gained, .b-achievements_notifier .achievement.lost {
-    background: var(--blur-background);
-    backdrop-filter: var(--blur);
-  }
-  .b-achievements_notifier .achievement.gained:hover, .b-achievements_notifier .achievement.lost:hover {
-    background: var(--blur-background);
+
+.b-achievements_notifier .achievement.gained,
+.b-achievements_notifier .achievement.lost {
+  background: var(--blur-background);
+  backdrop-filter: var(--blur);
 }
-  .b-spoiler_inline.is-opened {
-    background-color: rgb(255 255 255 / 9%);
+
+.b-achievements_notifier .achievement.gained:hover,
+.b-achievements_notifier .achievement.lost:hover {
+  background: var(--blur-background);
 }
-  .b-options-floated a:after, .b-options-floated .link:after {
-    content: ' ';
-  }
-  .b-spoiler_inline:not(.is-opened) {
-    background-color: rgb(0 0 0 / 20%);
+
+.b-spoiler_inline.is-opened {
+  background-color: rgb(255 255 255 / 9%);
 }
-  .b-spoiler_block {
-    background-color: rgb(0 0 0 / 20%);
+
+.b-options-floated a:after,
+.b-options-floated .link:after {
+  content: ' ';
 }
-  .b-code-v2 {
-    background: #0000003d;
+
+.b-spoiler_inline:not(.is-opened) {
+  background-color: rgb(0 0 0 / 20%);
 }
-  .b-footer_vote .vote-group .vote {
-    background-color: #00000038;
+
+.b-spoiler_block {
+  background-color: rgb(0 0 0 / 20%);
 }
-  .b-user_rate-history {
-      background: #00000045;   
-  }
-  .b-news_wall-topic>a[href] {
-      background: #00000045;
-  }
-  .p-profiles-edit .account .change-password a, .b-contests-menu .results, .b-shiki_editor .links .b-button.ok, .b-shiki_editor .images .b-button.ok, .b-shiki_editor .quotes .b-button.ok, .b-shiki_editor .upload .b-button.ok, .b-poll .poll-actions .vote, .b-link_button.dark, .b-form input[type=submit], .p-user_rates .mylist-block+.block+.block+.block>.b-list>li>a, .b-collection-filters>.block:nth-child(3)>.b-list>li>a {
-      background: #00000047;
-      color: #ffffff91;
-  }
-  .p-profiles-edit .account .change-password a:hover, .b-contests-menu .results:hover, .b-shiki_editor .links .b-button.ok:hover, .b-shiki_editor .images .b-button.ok:hover, .b-shiki_editor .quotes .b-button.ok:hover, .b-shiki_editor .upload .b-button.ok:hover, .b-poll .poll-actions .vote:hover, .b-link_button.dark:hover, .b-form input[type=submit]:hover, .p-user_rates .mylist-block+.block+.block+.block>.b-list>li>a:hover, .b-collection-filters>.block:nth-child(3)>.b-list>li>a:hover, .p-profiles-edit .account .change-password a:focus, .b-contests-menu .results:focus, .b-shiki_editor .links .b-button.ok:focus, .b-shiki_editor .images .b-button.ok:focus, .b-shiki_editor .quotes .b-button.ok:focus, .b-shiki_editor .upload .b-button.ok:focus, .b-poll .poll-actions .vote:focus, .b-link_button.dark:focus, .b-form input[type=submit]:focus, .p-user_rates .mylist-block+.block+.block+.block>.b-list>li>a:focus, .b-collection-filters>.block:nth-child(3)>.b-list>li>a:focus {
-      background: #00000047;
-      color: #ffffff;
-  }
-  .b-news_line-topic>a[href] {
-      background: #00000045;
-  }
-  .p-dashboards-show .v2 .db-updates .inner>.db-update {
-      background: #00000045;
-  }
-  .tipsy-inner {
-    background-color: #0000004a;
-  }
-  .b-hot_topics-v2 .b-link {
-    background-color: #0000003d;   
-  }
-  .b-forum .faye-loader, .b-comments .messages-postloader, .b-comments .faye-loader, .b-comments .comments-loader, .b-comments .comments-hider, .b-comments .comments-expander, .collapsed+.spoiler .hide-expanded, .collapsed {
-      background-color: #0000002e;
-  }
-  .b-forum .faye-loader:hover, .b-comments .messages-postloader:hover, .b-comments .faye-loader:hover, .b-comments .comments-loader:hover, .b-comments .comments-hider:hover, .b-comments .comments-expander:hover, .collapsed+.spoiler .hide-expanded:hover, .collapsed:hover {
-    background-color: #0000004d;
+
+.b-code-v2 {
+  background: #0000003d;
 }
-  .b-quote, .b-quote-v2 {
-    background: #1c1c1c70;
-    border-color: #33333370;
-    background-color: var(--color-surface);
-  }
-  
-  .p-messages header.head, .p-dialogs header.head {
-      background: #00000000;
-  }
-  .b-user16 a, a.b-user16 {
-      background: #00000033;
-  }
-  .b-editable_grid tbody tr:nth-child(odd) td, .b-pages, .subheadline-input {
-      background: #00000063;
-  }
-  .p-dashboards-show .v2 .fc-user-sections .tag-link {
-    background-color: #00000040 !important;
-  }
-  .tooltip-inner {
-    background: #00000080;
-    backdrop-filter: var(--blur);
-  }
-  .p-user_rates-index .list-lines tr.edit-form form {
-    background: #0000004d;  
-  }
-  .b-collection_search .field input {
-    background: #0000004d;
-  }
-  .p-user_rates-index .l-content>.mylist {
-    background: #00000000;
-    justify-content: center;
-  }
-  .l-footer::before {
-    content: "theme by Onzi";
-  }
-  .p-user_rates-index .list-lines tr td .new-value input {
-    background: #0000004d;
-  }
-  .b-height_shortener .expand span {
-    background: #0000007d;
-  }    
-  .b-height_shortener .shade {
-    --c-shade-bottom: #121618;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #121618ba);
-} 
-  .p-animes-show .other-names, .p-animes-show .more-info, .p-mangas-show .other-names, .p-mangas-show .more-info, .p-ranobe-show .other-names, .p-ranobe-show .more-info {
-      background-color: #00000054;
-    }
-  /* Блюр истории */
-  .p-profiles .profile-head .c-history.x3>div:nth-child(2) {
-    filter: blur(4px);
-    transition: 0.4s;
-  }
-  .p-profiles .profile-head .c-history.x3:hover>div:nth-child(2) {
-    filter: blur(0px);
-  }
-  .b-tag {
-    background-color: #00000040 !important;
-  }
-  .b-tag[href] {
-    background-color: #00000052;
-  }  
-  /* чат */
-  .icon[data-v-10fc0338]:not(.is-disabled) {
-      color: #ffffffa3;
-  }
-  .ProseMirror {
-    background-color: var(--color-surface);
-    color: #ffffffcf;
-    border: none;
-    box-shadow: 0px 0px 9px 0px rgb(255 255 255 / 50%);
-  }
-  /*  
+
+.b-footer_vote .vote-group .vote {
+  background-color: #00000038;
+}
+
+.b-user_rate-history {
+  background: #00000045;
+}
+
+.b-news_wall-topic>a[href] {
+  background: #00000045;
+}
+
+.p-profiles-edit .account .change-password a,
+.b-contests-menu .results,
+.b-shiki_editor .links .b-button.ok,
+.b-shiki_editor .images .b-button.ok,
+.b-shiki_editor .quotes .b-button.ok,
+.b-shiki_editor .upload .b-button.ok,
+.b-poll .poll-actions .vote,
+.b-link_button.dark,
+.b-form input[type=submit],
+.p-user_rates .mylist-block+.block+.block+.block>.b-list>li>a,
+.b-collection-filters>.block:nth-child(3)>.b-list>li>a {
+  background: #00000047;
+  color: #ffffff91;
+}
+
+.p-profiles-edit .account .change-password a:hover,
+.b-contests-menu .results:hover,
+.b-shiki_editor .links .b-button.ok:hover,
+.b-shiki_editor .images .b-button.ok:hover,
+.b-shiki_editor .quotes .b-button.ok:hover,
+.b-shiki_editor .upload .b-button.ok:hover,
+.b-poll .poll-actions .vote:hover,
+.b-link_button.dark:hover,
+.b-form input[type=submit]:hover,
+.p-user_rates .mylist-block+.block+.block+.block>.b-list>li>a:hover,
+.b-collection-filters>.block:nth-child(3)>.b-list>li>a:hover,
+.p-profiles-edit .account .change-password a:focus,
+.b-contests-menu .results:focus,
+.b-shiki_editor .links .b-button.ok:focus,
+.b-shiki_editor .images .b-button.ok:focus,
+.b-shiki_editor .quotes .b-button.ok:focus,
+.b-shiki_editor .upload .b-button.ok:focus,
+.b-poll .poll-actions .vote:focus,
+.b-link_button.dark:focus,
+.b-form input[type=submit]:focus,
+.p-user_rates .mylist-block+.block+.block+.block>.b-list>li>a:focus,
+.b-collection-filters>.block:nth-child(3)>.b-list>li>a:focus {
+  background: #00000047;
+  color: #ffffff;
+}
+
+.b-news_line-topic>a[href] {
+  background: #00000045;
+}
+
+.p-dashboards-show .v2 .db-updates .inner>.db-update {
+  background: #00000045;
+}
+
+.tipsy-inner {
+  background-color: #0000004a;
+}
+
+.b-hot_topics-v2 .b-link {
+  background-color: #0000003d;
+}
+
+.b-forum .faye-loader,
+.b-comments .messages-postloader,
+.b-comments .faye-loader,
+.b-comments .comments-loader,
+.b-comments .comments-hider,
+.b-comments .comments-expander,
+.collapsed+.spoiler .hide-expanded,
+.collapsed {
+  background-color: #0000002e;
+}
+
+.b-forum .faye-loader:hover,
+.b-comments .messages-postloader:hover,
+.b-comments .faye-loader:hover,
+.b-comments .comments-loader:hover,
+.b-comments .comments-hider:hover,
+.b-comments .comments-expander:hover,
+.collapsed+.spoiler .hide-expanded:hover,
+.collapsed:hover {
+  background-color: #0000004d;
+}
+
+.b-quote,
+.b-quote-v2 {
+  background: #1c1c1c70;
+  border-color: #33333370;
+  background-color: var(--color-surface);
+}
+
+.p-messages header.head,
+.p-dialogs header.head {
+  background: #00000000;
+}
+
+.b-user16 a,
+a.b-user16 {
+  background: #00000033;
+}
+
+.b-editable_grid tbody tr:nth-child(odd) td,
+.b-pages,
+.subheadline-input {
+  background: #00000063;
+}
+
+.p-dashboards-show .v2 .fc-user-sections .tag-link {
+  background-color: #00000040 !important;
+}
+
+.tooltip-inner {
+  background: #00000080;
+  backdrop-filter: var(--blur);
+}
+
+.p-user_rates-index .list-lines tr.edit-form form {
+  background: #0000004d;
+}
+
+.b-collection_search .field input {
+  background: #0000004d;
+}
+
+.p-user_rates-index .l-content>.mylist {
+  background: #00000000;
+  justify-content: center;
+}
+
+.l-footer::before {
+  content: "theme by Onzi";
+}
+
+.p-user_rates-index .list-lines tr td .new-value input {
+  background: #0000004d;
+}
+
+.b-height_shortener .expand span {
+  background: #0000007d;
+}
+
+.b-height_shortener .shade {
+  --c-shade-bottom: #121618;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #121618ba);
+}
+
+.p-animes-show .other-names,
+.p-animes-show .more-info,
+.p-mangas-show .other-names,
+.p-mangas-show .more-info,
+.p-ranobe-show .other-names,
+.p-ranobe-show .more-info {
+  background-color: #00000054;
+}
+
+/* Блюр истории */
+.p-profiles .profile-head .c-history.x3>div:nth-child(2) {
+  filter: blur(4px);
+  transition: 0.4s;
+}
+
+.p-profiles .profile-head .c-history.x3:hover>div:nth-child(2) {
+  filter: blur(0px);
+}
+
+.b-tag {
+  background-color: #00000040 !important;
+}
+
+.b-tag[href] {
+  background-color: #00000052;
+}
+
+/* чат */
+.icon[data-v-10fc0338]:not(.is-disabled) {
+  color: #ffffffa3;
+}
+
+.ProseMirror {
+  background-color: var(--color-surface);
+  color: #ffffffcf;
+  border: none;
+  box-shadow: 0px 0px 9px 0px rgb(255 255 255 / 50%);
+}
+
+/*  
   .ProseMirror-focused {
     box-shadow: 0px 0px 9px 0px rgb(221 87 112);
   }
   */
-  .menubar[data-v-082d85bb] {
+.menubar[data-v-082d85bb] {
   background-color: var(--color-surface);
-  }
-  .unsaved-content[data-v-082d85bb] {
-    background: #000000;
-  }
-  /* Код */
-  .cm-s-solarized.cm-s-light {
-      background-color: #00000000;
-      color: #00bbff;
-  }
-  .cm-s-solarized.cm-s-light .CodeMirror-gutters {
-    background-color: #00000082;  
-  }
+}
+
+.unsaved-content[data-v-082d85bb] {
+  background: #000000;
+}
+
+/* Код */
+.cm-s-solarized.cm-s-light {
+  background-color: #00000000;
+  color: #00bbff;
+}
+
+.cm-s-solarized.cm-s-light .CodeMirror-gutters {
+  background-color: #00000082;
+}
