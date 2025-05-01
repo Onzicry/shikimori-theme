@@ -94,6 +94,11 @@
   color: #607075;
 }
 
+.head.misc.is-own-profile {
+	background-color: var(--blur-background);
+	backdrop-filter: var(--blur);
+}
+
 .b-to-top.active {
   display: none;
 }
